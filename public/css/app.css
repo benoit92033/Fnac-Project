@@ -1,0 +1,223 @@
+* {
+    font-family: sans-serif;
+}
+
+td {
+	border: solid black 1px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#rayons {
+	display: inline;
+}
+
+#rayons input {
+	margin: 0;
+	padding: 20px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#avis {
+	display: inline-block;
+	border: solid grey 2px;
+	padding: 10px;
+	margin: 15px;
+}
+
+#commande {
+	border: solid grey 2px;
+	padding: 10px;
+	margin: 15px;
+}
+
+#commande div {
+	display: inline-block;
+}
+
+#mus {
+	border: solid orange 3px;
+	padding: 10px;
+	margin: 15px;
+}
+
+button {
+	margin: 5px;
+	cursor: pointer;
+}
+
+/*.navbar-brand{
+	font-size: 4em;
+	background-color: darkorange;
+	padding: 15px;
+	margin: 0px;
+	border: solid black 4px;
+}
+*/
+.navbar-brand img{
+	padding: 15px;
+	margin: 0px;
+	width: 150px;
+}
+
+.navbar-header{
+	margin-bottom: 50px;
+}
+
+.droite {
+	padding: 10px;
+	margin: 15px;
+	float: right;
+	background-color: darkorange;
+	border: solid black 2px;
+}
+
+.musique {
+	border: solid orange 3px;
+	padding: 10px;
+	margin: 15px;
+}
+
+.musique p {
+	display: inline;
+}
+
+.musique form {
+	display: inline;
+}
+
+.musique input {
+	margin: 0 200 0 0;
+	padding: 15px;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+input {
+	margin: 7px;
+	padding: 15px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#search input {
+	padding: 10px;
+	margin: 15px;
+}
+#search p {
+	display: inline;
+}
+
+#search select {
+	padding: 10px;
+	margin: 15px;
+	width: 195px;
+}
+
+#monCompte {
+	margin: 20px;
+	padding: 20px;
+	display: inline-block;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#monCompte li {
+	padding: 5px;
+}
+
+#modifier {
+	padding: 10px;
+	margin: 20px;
+	background-color: darkorange;
+	border: solid black 2px;
+}
+
+.panel-body fieldset div div{
+	margin: 10px;
+}
+
+.form-horizontal fieldset{
+	display: inline;
+}
+
+.form-horizontal input {
+	padding: 0px;
+	margin: 0px;
+}
+
+.form-horizontal p {
+	padding: 0px;
+	margin: 0px;
+	color: grey;
+}
+
+.form-gauche {
+	padding: 10px;
+	border: solid orange 3px;
+	background-color: rgb(240,240,240);
+}
+
+.form-droite {
+	position: absolute;
+	padding: 10px;
+	border: solid orange 3px;
+	background-color: rgb(240,240,240);
+}
+
+#panel-body{
+	padding: 10px;
+	border: solid orange 3px;
+	background-color: rgb(240,240,240);
+}
+
+#panel-body div div{
+	padding: 5px;
+}
+
+.form {
+	margin: 0;
+	padding: 15px;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#qte input {
+	margin: 0px;
+	padding: 10 10 10 10;
+	font-size: 18px;
+}
+
+#formAjouterAvis {
+	display: inline-block;
+	padding: 10px;
+	margin: 50px;
+	border: solid orange 3px;
+	background-color: rgb(240,240,240);
+}
+
+#formAjouterAvis input {
+	margin: 10px;
+	padding: 10px;
+}
+
+#formAjouterAvis select {
+	margin: 10px;
+	padding: 5px;
+}
+
+#formAjouterAvis label {
+	font-size: 18px;
+}
